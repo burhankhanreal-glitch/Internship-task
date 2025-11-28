@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.datasets import load_iris
 
-print("Starting Task 1 - Flower Data Analysis")
+print("Working on Task 1 - Flower Data Analysis")
 
 # Get the flower data
 print("Loading the iris flower dataset...")
@@ -20,7 +20,7 @@ print("Each flower has these measurements: sepal length, sepal width, petal leng
 print("\nFirst few flowers in our data:")
 print(flower_df.head())
 
-print("\nNow let's create some charts to see patterns...")
+print("\nCreating charts to visualize the patterns...")
 
 # Create charts to visualize the data
 plt.figure(figsize=(15, 10))
@@ -55,5 +55,5 @@ plt.ylabel('Sepal Width (cm)')
 plt.tight_layout()
 plt.show()
 
-print("Task 1 completed!")
-print("We can clearly see that different flower types have distinct measurement patterns.")
+print("From these charts, I can see that different flower types have distinct measurement patterns.")
+print("The Setosa flowers (type 0) seem to have smaller petals but wider sepals.")
