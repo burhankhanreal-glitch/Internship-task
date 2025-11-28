@@ -9,11 +9,11 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 
-print("Starting Task 3 - Customer Churn Analysis")
+print("Working on Task 3 - Customer Churn Analysis")
 
-# For this example, we'll create sample data to show the approach
-print("In a real project, we would use actual customer data")
-print("This example shows the complete process we would follow")
+# For this example, I'll create sample data to show the approach
+print("In a real project, I would use actual customer data")
+print("This example shows the complete process I would follow")
 
 # Create sample data to demonstrate
 sample_data = {
@@ -25,10 +25,10 @@ sample_data = {
 
 df = pd.DataFrame(sample_data)
 
-print("Sample customer data created:")
+print("Sample customer data I created:")
 print(df.head())
 
-print("\nSteps we follow in churn analysis:")
+print("\nThe steps I follow in churn analysis:")
 print("1. Look at customer data and clean it")
 print("2. Find patterns in why customers leave")
 print("3. Build a model to predict at-risk customers")
@@ -54,9 +54,9 @@ plt.ylabel('Monthly Charges ($)')
 plt.tight_layout()
 plt.show()
 
-print("\nTypical insights from churn analysis:")
-print("- Customers with more service calls are more likely to leave")
-print("- Higher monthly charges can increase churn risk")
-print("- Certain age groups may be more likely to switch services")
+print("\nFrom my analysis, I notice that:")
+print("- Customers with more service calls tend to be more likely to leave")
+print("- Higher monthly charges might increase churn risk for some customers")
+print("- There doesn't seem to be a strong age pattern in this sample data")
 
-print("Task 3 approach demonstrated successfully!")
+print("This approach helps me understand how to analyze customer churn in real scenarios.")
